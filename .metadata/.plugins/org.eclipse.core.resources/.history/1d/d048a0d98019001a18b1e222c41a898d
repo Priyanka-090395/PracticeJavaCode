@@ -1,0 +1,23 @@
+package workplace.service.first;
+
+public class FirstPrimitiveDataTypeExample {
+	
+	//integer data types
+	byte
+	
+	short
+	
+	int
+	
+	long
+	
+	/*
+	 * Double data types declaring and initializing
+	 */
+
+	float
+	
+	double
+	
+	
+}

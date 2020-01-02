@@ -1,0 +1,10 @@
+package org.encap.first;
+
+public class SecondEncap {
+
+	public static void main(String[] args) {
+		
+	FirstEncap obj1 = new FirstEncap();
+	
+	}
+}

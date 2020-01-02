@@ -1,0 +1,16 @@
+package first.encap.two;
+
+import first.encap.one.EncapOne;
+import first.encap.one.EncapSecond;
+
+public class EncapThird {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		EncapOnene eo2 = new EncapOne();
+		EncapSecond es1 = new EncapSecond();
+		EncapThird et = new EncapThird();
+	}
+
+}

@@ -1,0 +1,39 @@
+package priyanka.java.project1;
+
+import java.util.Scanner;
+public class SwitchCaseProgram1 {
+
+    public static void main(String[] args) {
+    	char operator;
+    	Double number1, number2, result;
+    	
+    	Scanner sc = new Scanner(System.in);
+    	System.out.print("Enter operator either +, -, * or /: ");
+    	operator = sc.next().charAt(0);
+    	System.out.print("Enter number1 and number2 respectively: ");
+    	number1 = sc.nextDouble();
+    	number2 = sc.nextDouble();
+    	
+    	switch (operator) {
+         case '+':
+           result = number1 + number2;
+    	   System.out.print(number1 + "+" + number2 + " = " + result);
+           break;
+         case '-':
+           result = number1 - number2;
+           System.out.print(number1 + "-" + number2 + " = " + result);
+           break;
+         case '*':
+           result = number1 * number2;
+           System.out.print(number1 + "*" + number2 + " = " + result);
+           break;
+         case '/':
+           result = number1 / number2;
+           System.out.print(number1 + "/" + number2 + " = " + result);
+           break;
+         default: 
+           System.out.println("Invalid operator!");
+           break;
+        }       
+    }
+}

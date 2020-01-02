@@ -1,0 +1,15 @@
+package workplace.service.second;
+
+public class FirstBasicArray {
+
+	public static void main(String args[])
+	{
+		
+	int a = 10; a=20; a=40;
+	
+	System.out.println("Print a" +a);
+	
+	System.out.println("Print a" +a);
+	
+}
+}

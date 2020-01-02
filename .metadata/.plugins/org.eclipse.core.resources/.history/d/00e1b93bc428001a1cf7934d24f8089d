@@ -1,0 +1,51 @@
+package priyanka.java.project1;
+
+import java.util.Scanner;
+
+public class SwitchCaseProgram2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+    	int i,number2, result;
+    	char operator;
+    	
+    	Scanner sc = new Scanner(System.in);
+    	System.out.print("Enter a number : ");
+    	
+    	
+    	i = sc.nextInt();
+    	number2 = sc.nextInt();
+    	operator =  sc.next().charAt(0);
+    	
+    	
+    	switch (operator) {
+         case '+':
+        	 if(i>0) {
+       
+           result = i + number2;
+    	   System.out.print(i + "+" + number2 + " = " + result);
+           break;
+        	 }
+        	 else {
+        		 System.out.println("Invalid Input");
+        	 }
+         case '-':
+           result = i - number2;
+           System.out.print(i + "-" + number2 + " = " + result);
+           break;
+         case '*':
+           result = i * number2;
+           System.out.print(i + "*" + number2 + " = " + result);
+           break;
+         case '/':
+           result = i / number2;
+           System.out.print(i + "/" + number2 + " = " + result);
+           break;
+         default: 
+           System.out.println("Invalid operator!");
+           break;
+	}
+
+}
+}

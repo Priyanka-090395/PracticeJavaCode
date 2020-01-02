@@ -1,0 +1,20 @@
+package priyanka.java.project1;
+
+public class StatementIfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+		int add1, add2, number;
+		
+		public void sumName () {
+
+			number = add1 + add2;
+			
+			System.out.println("Addition of two numbers is : ");
+			
+		
+	}
+
+}

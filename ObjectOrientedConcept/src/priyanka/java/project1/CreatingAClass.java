@@ -1,0 +1,28 @@
+package priyanka.java.project1;
+
+public class CreatingAClass {
+
+	// declaring fields
+	
+	int length, breadth, area;
+	
+	String str1, str2, str3;
+	
+	/*
+	 * implementing the methods
+	 */
+	
+	public void lengthOfTraingle() {
+		
+		area = length*breadth;
+		System.out.println("The length of the area :" +area);
+	}
+	
+	public void joiningTheData() {
+		
+		str3 = str1.concat(str2);
+		System.out.println("Concating the two strings :" +str3);
+		
+	}
+
+}

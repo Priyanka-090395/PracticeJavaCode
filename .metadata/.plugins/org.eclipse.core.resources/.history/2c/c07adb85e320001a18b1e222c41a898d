@@ -1,0 +1,24 @@
+package priyanka.java.project1;
+
+public class CreatingAClass {
+
+	// declaring fields
+	
+	int length, breadth, area;
+	
+	String str1, str2, str3;
+	
+	/*
+	 * implementing the methods
+	 */
+	
+	public void lengthOfTraingle() {
+		
+	}
+	
+	public void joiningTheData() {
+		
+		
+	}
+
+}

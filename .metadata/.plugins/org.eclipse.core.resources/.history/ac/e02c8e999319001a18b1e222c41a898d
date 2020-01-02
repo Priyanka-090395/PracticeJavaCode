@@ -1,0 +1,24 @@
+package workplace.service.first.colour;
+
+public class PrimitiveDataTypeHomeWork {
+
+//Integer Data types Declaration
+	
+	byte lengthValue;
+	short widthValue;
+	int sizeValue;
+	long dimensionsValue;
+
+//Float Data type Declarations
+	
+	float breadthSize;
+	double heightSize;
+	
+// Boolean data Type Declaration
+	
+	boolean b1;
+	
+// Character data Type Declaration
+	
+	char totalDimensions;
+}

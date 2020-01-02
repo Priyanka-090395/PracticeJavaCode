@@ -1,0 +1,10 @@
+package org.encap.second;
+
+public class ThirdEncap {
+
+	public static void main(String[] args) {
+
+		
+		ThirdEncap obj2 = new ThirdEncap();
+	}
+}

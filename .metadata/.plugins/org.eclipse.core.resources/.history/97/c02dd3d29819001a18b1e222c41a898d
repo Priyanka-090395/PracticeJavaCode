@@ -1,0 +1,15 @@
+package workplace.service.first.colour;
+
+public class PrimitiveDataTypeDeclaration {
+	
+	
+		
+ 
+		int firstValue1,firstValue2,firstValue3;
+		double simpleInterest1,simpleInterest2;
+		boolean switchOn,switchOff;
+		char c1;
+		String firstName,lastName;
+
+
+}

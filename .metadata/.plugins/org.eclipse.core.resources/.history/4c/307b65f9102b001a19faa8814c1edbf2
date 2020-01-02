@@ -1,0 +1,11 @@
+package org.encap.first;
+
+public class FirstEncap {
+	
+public static void main(String[] args) {
+	
+	FirstEncap obj = new FirstEncap();
+	SecondEncap se1 = new SecondEncap();
+	ThirdEncap te1 = new ThirdEncap();
+}
+}

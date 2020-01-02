@@ -1,0 +1,42 @@
+package first.encap.one;
+
+public class EncapOne {
+	
+	//class consists of fields,constructors and methods
+
+	private int lengthOf;
+	public double breadthOf;
+	protected String areaOf;
+	boolean switchOn;
+	
+	private void courseDownload() {
+		
+		System.out.println("Private methiod");
+	}
+	
+	public void noteBook() {
+		
+		System.out.println("public method");
+	}
+	
+	protected void mobilePhone() {
+		
+		System.out.println("protected method");
+	}
+	
+	void markerPen () {
+		
+		System.out.println("default method");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		EncapOne eo1 = new EncapOne();
+		EncapSecond eo2 = new EncapSecond();
+		
+		
+	}
+
+}

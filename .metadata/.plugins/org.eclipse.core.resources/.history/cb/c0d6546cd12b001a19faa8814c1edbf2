@@ -1,0 +1,22 @@
+package home.work.project2;
+public class ExceptionHandlingWithThrow {
+
+    public static void main(String[] args) {
+    a();
+    }
+
+    public static void a(){
+            b();
+        System.out.println("Method 1");
+
+    }
+
+    public static void b() throws {
+        System.out.println("Method 2");
+        
+           int a=50/0;
+           System.out.println("Execute ainda???");
+       
+ 
+    }
+}

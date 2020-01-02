@@ -1,0 +1,12 @@
+package first.encap.two;
+
+public class EncapThird {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		EncapOne eo2 = new EncapOne();
+		
+	}
+
+}

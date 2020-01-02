@@ -1,0 +1,13 @@
+package home.work.project2;
+
+public class Exception {
+
+	public static void main(String[] args) {
+		
+		int a= 40/0;
+		
+		System.out.println("Print");
+	}
+
+	
+}
